@@ -25,6 +25,7 @@ extension Installer {
             do {
                 guard let tmpDir = tmpDir else {
                     throw PlayCoverError.noTmpDir
+
                 }
 
                 var appId: String?
@@ -99,4 +100,6 @@ extension Installer {
     }
 
 }
+
+
 
